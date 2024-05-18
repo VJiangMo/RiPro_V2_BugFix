@@ -275,4 +275,16 @@ foreach ($ripro_v2_includes as $file) {
     require_once get_template_directory() . $file;
 }
 
+// add more buttons to the html editor
+function appthemes_add_quicktags() {
+//check to see if the 'quicktags' script is in use to avoid errors 
+if (wp_script_is('quicktags')){ 
+?>
+    <script type="text/javascript">
+    QTags.addButton( 'eg_hidetip', '隐藏内容提示', '<strong>资源来源：</strong>资源来自群友投稿。如有侵权，请联系站长：auto_kefu_robot@qq.com 删除！！</br><strong>可用说明：</strong>如果资源失效，请联系站长微信处理（添加备注：资源失效，否则不通过！）</br><strong>资源下载地址：</strong><span style="color: #f00;">为了防止泄密！！下载地址已隐藏，仅限VIP会员登录后可见！！</span>', '', '', '隐藏内容提示', 140 );
+    </script>
+<?php
+}
+}
+add_action( 'admin_print_footer_scripts', 'appthemes_add_quicktags', 100 );
 ///////////////////////////// RITHEME.COM END ///////////////////////////

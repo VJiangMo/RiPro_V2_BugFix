@@ -1173,16 +1173,26 @@ if (!function_exists('rizhuti_v2_module_lastpost_item')) {
 
 
         echo $args['before_widget'];
+        
+        // 查询置顶文章
+        $_args0 = array(
+            'paged' => get_query_var('paged', 1),
+            'ignore_sticky_posts' => true,
+            'post_status'         => 'publish',
+            'post__in' => get_option( 'sticky_posts' ),
+            'category__not_in'    => $instance['no_cat'],
+        );
 
+        $PostData0 = new WP_Query($_args0);
 
-        // 查询
+        // 查询普通文章
         $_args = array(
             'paged' => get_query_var('paged', 1),
             'ignore_sticky_posts' => true,
             'post_status'         => 'publish',
+            'post__not_in' => get_option( 'sticky_posts' ),
             'category__not_in'    => $instance['no_cat'],
         );
-
 
         $PostData = new WP_Query($_args);
 
@@ -1203,9 +1213,16 @@ if (!function_exists('rizhuti_v2_module_lastpost_item')) {
             ?>
             </div>
         </div>
-
         <div class="module posts-wrapper <?php echo esc_attr($instance['item_style']); ?>">
             <div class="row posts-wrapper scroll">
+                <!--置顶文章显示-->
+                <?php if ( $PostData0->have_posts() ) : 
+                    /* Start the Loop */
+                    while ( $PostData0->have_posts() ) : $PostData0->the_post();
+                        get_template_part( 'template-parts/loop/item', $instance['item_style']);
+                    endwhile;
+                endif;?>
+                <!--普通文章显示-->
                 <?php if ( $PostData->have_posts() ) : 
                     /* Start the Loop */
                     while ( $PostData->have_posts() ) : $PostData->the_post();
@@ -1213,7 +1230,6 @@ if (!function_exists('rizhuti_v2_module_lastpost_item')) {
                     endwhile;
                 else :
                     get_template_part( 'template-parts/loop/item', 'none' );
-
                 endif;?>
             </div>
             <?php if (!empty($instance['is_pagination'])) {ripro_v2_pagination(5);}?>

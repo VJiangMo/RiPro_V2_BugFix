@@ -1,0 +1,24 @@
+body {
+    font-size: 17px;
+}
+.z-1 {
+    z-index: 1;
+}
+.m-2 {
+    margin: 0.5rem;
+}
+.start-0 {
+    left: 0;
+}
+.top-0 {
+    top: 0;
+}
+.position-absolute {
+    position: absolute;
+}
+.bg-orange{
+   background: #ff5722;
+}
+.text-white{
+ font-size: 16px;
+}

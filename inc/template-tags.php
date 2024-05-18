@@ -692,13 +692,16 @@ if (!function_exists('_get_post_media')) {
         
         //获取比例
         $ratio = $_size_px['height'] / $_size_px['width'] * 100 . '%';
-
+        
+        if(is_sticky()) : $img = '<span class="tips-badge position-absolute top-0 start-0 badge bg-orange bg-opacity-75 text-white" style="z-index: 1;margin: .5rem;">置顶</span>';
+        endif;
+        
         if ( $video && !wp_is_mobile() && get_post_format($post->ID) == 'video' && $mp4 = _get_post_thumb_video_src($post) ) {
-            $img   = '<div class="entry-media video-thum" data-mp4="'.$mp4.'">';
+            $img   .= '<div class="entry-media video-thum" data-mp4="'.$mp4.'">';
         }else{
-            $img   = '<div class="entry-media">';
+            $img   .= '<div class="entry-media">';
         }
-
+        
         $img .= '<div class="placeholder" style="padding-bottom: ' . esc_attr($ratio) . '">';
 
         $img .= '<a'. _target_blank() .' href="' . get_permalink($post->ID) . '" title="' . get_the_title($post->ID) . '" rel="nofollow noopener noreferrer">';
@@ -809,7 +812,7 @@ if (!function_exists('rizhuti_v2_entry_meta')) {
             <?php endif;
 
             //时间日期
-            if ( $options['date'] ) : ?>
+            if ( $options['date'] &&(!is_sticky())) : ?>
               <span class="meta-date">
                   <time datetime="<?php echo esc_attr( get_the_date( 'c', $post_id ) ); ?>">
                     <i class="fa fa-clock-o"></i>

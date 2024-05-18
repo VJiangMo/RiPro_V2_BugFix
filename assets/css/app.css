@@ -45,7 +45,7 @@ body {
     background-color: rgb(240, 244, 245);
     color: #34495e;
     font-family: Lato, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 24px;
     text-rendering: optimizeLegibility;
     word-break: break-word;
@@ -675,7 +675,7 @@ form.inline button[type="submit"] {
 }
 
 .modular-title-1 .section-title>small {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: normal;
     margin-left: 10px;
     opacity: 0.85;
@@ -735,12 +735,12 @@ form.inline button[type="submit"] {
     }
 
     .modular-title-1 .section-title {
-        font-size: 15px;
+        font-size: 17px;
         margin-bottom: 30px;
     }
 
     .modular-title-2 .section-title {
-        font-size: 15px;
+        font-size: 17px;
         margin-bottom: 45px;
     }
 }
@@ -2308,7 +2308,7 @@ form.inline button[type="submit"] {
 .term-bar .term-description {
     position: relative;
     color: #e8e8e8;
-    font-size: 15px;
+    font-size: 17px;
     margin: 0;
     margin-top: 10px;
 }
@@ -2832,7 +2832,7 @@ form.inline button[type="submit"] {
 
 .navbar .menu-item-mega>.sub-menu>.menu-item>a {
     color: #aaa;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: 0;
     line-height: 1.2;
     margin-bottom: 5px;
@@ -3414,7 +3414,7 @@ body:not(.canvas-visible) .off-canvas {
 /*///////////*/
 .archive-filter {
     position: relative;
-    font-size: 15px;
+    font-size: 17px;
     color: #8f8f8f;
     background: #fff;
     margin-top: -30px;
@@ -3487,7 +3487,7 @@ body:not(.canvas-visible) .off-canvas {
 /*archive-filter-2*/
 .archive-filter-2 {
     position: relative;
-    font-size: 15px;
+    font-size: 17px;
     color: #8f8f8f;
     background: #fff;
     margin-top: -30px;
@@ -3825,7 +3825,7 @@ body:not(.canvas-visible) .off-canvas {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 50%;
     color: #fff;
-    font-size: 15px;
+    font-size: 17px;
     height: 25px;
     left: 10px;
     line-height: 25px;
@@ -3961,7 +3961,7 @@ body:not(.canvas-visible) .off-canvas {
 }
 
 .entry-header .entry-title {
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: -0.2px;
     margin-bottom: 0;
     overflow: hidden;
@@ -4755,7 +4755,7 @@ body:not(.canvas-visible) .off-canvas {
 
 .breadcrumb {
     color: #8f8f8f;
-    font-size: 15px;
+    font-size: 17px;
     display: inline-block;
     padding: 0;
     margin: 0;
@@ -4962,6 +4962,7 @@ body:not(.canvas-visible) .off-canvas {
     padding: 20px 10px;
     margin-bottom: 30px;
     border-radius: 4px;
+    font-size: 17px;
 }
 
 .article-content .entry-header {
@@ -5010,6 +5011,7 @@ body:not(.canvas-visible) .off-canvas {
 .article-content p {
     line-height: 1.8;
     word-wrap: break-word;
+    font-size: 17px;
 }
 
 .article-content .entry-content>p>a:not(.btn) {
@@ -5727,6 +5729,7 @@ body:not(.canvas-visible) .off-canvas {
     .content-area .article-content {
         padding: 10px 0;
         margin-bottom: 20px;
+        font-size: 17px;
     }
 
     .article-content .wp-block-quote, .article-content blockquote {
@@ -6934,7 +6937,7 @@ body:not(.canvas-visible) .off-canvas {
     }
 
     .swal2-popup.swal2-toast .swal2-title {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .swal2-popup.swal2-toast {
@@ -8305,7 +8308,7 @@ select.form-control:focus::-ms-value {
 .notify-content div {
     padding: 20px 30px;
     margin: 0;
-    font-size: 15px;
+    font-size: 17px;
     color: #FFF;
     text-align: left;
 }

@@ -1029,8 +1029,8 @@ function _ripro_get_pay_type_html() {
     if ($is_iconpay) {
         $html .= '<div class="pay-item" id="iconpay" data-type="' . $iconpay_type . '"><i class="iconpay"></i><span>' . esc_html__('余额支付', 'ripro-v2') . '</span></div>';
     }
-
-    $html .= '</div>';
+     $html .= '<div style="text-align:left;font-size:12px;">★提醒：境外用户无法支付，请联系客服微信(10:00~22:00)：xiaowei19970701</div>';
+     $html .= '</div>';
     return array('html' => $html, 'alipay' => $alipay_type, 'weixinpay' => $wxpay_type, 'paypal' => $paypal_type, 'iconpay' => $iconpay_type);
 }
 
@@ -1049,11 +1049,11 @@ function get_ajax_payqr_html($type, $order_price, $qrimg) {
     switch ($type) {
     case 'alipay':
         $iconstr  = '<img src="' . get_template_directory_uri() . '/assets/img/alipay.png" class="qr-pay">';
-        $html_str = '<div class="qrcon"> <h5> ' . $iconstr . ' </h5> <div class="title">支付宝扫码支付 ' . $order_price . ' 元</div> <div align="center" class="qrcode"> <img src="' . $qrimg . '"/> </div> <div class="bottom alipay"> 请使用支付宝扫一扫<br><small>扫码后等待 5 秒左右，切勿关闭扫码窗口</small></br></div> </div>';
+        $html_str = '<div class="qrcon"> <h5> ' . $iconstr . ' </h5> <div class="title">支付宝扫码支付 ' . $order_price . ' 元</div> <div align="center" class="qrcode"> <img src="' . $qrimg . '"/> </div> <div class="bottom alipay"> 请使用支付宝扫一扫<br><small>扫码后等待 10 秒左右，切勿关闭扫码窗口</small></br></div> </div>';
         break;
     case 'weixinpay':
         $iconstr  = '<img src="' . get_template_directory_uri() . '/assets/img/weixin.png" class="qr-pay">';
-        $html_str = '<div class="qrcon"> <h5> ' . $iconstr . ' </h5> <div class="title">微信扫码支付 ' . $order_price . ' 元</div> <div align="center" class="qrcode"> <img src="' . $qrimg . '"/> </div> <div class="bottom weixinpay"> 请使用微信扫一扫<br><small>扫码后等待 5 秒左右，切勿关闭扫码窗口</small></br></div> </div>';
+        $html_str = '<div class="qrcon"> <h5> ' . $iconstr . ' </h5> <div class="title">微信扫码支付 ' . $order_price . ' 元</div> <div align="center" class="qrcode"> <img src="' . $qrimg . '"/> </div> <div class="bottom weixinpay"> 请使用微信扫一扫<br><small>扫码后等待 10 秒左右，切勿关闭扫码窗口</small></br></div> </div>';
         break;
     default:
         break;
@@ -1462,7 +1462,8 @@ function site_shop_pay_succ_callback($order) {
     
         //发送消息到网站动态
         RiDynamic::add(array(
-            'info' => sprintf(__('使用%s成功充值了%s%s', 'ripro-v2'),get_order_pay_type_text($order->pay_type),$coin_num_new,site_mycoin('name')), 
+            //'info' => sprintf(__('使用%s成功充值了%s%s', 'ripro-v2'),get_order_pay_type_text($order->pay_type),$coin_num_new,site_mycoin('name')), 
+            'info' => sprintf(__('%s成功充值了%s%s', 'ripro-v2'),'',$coin_num_new,site_mycoin('name')), 
             'uid' => $order->user_id, 
             'href' => get_user_page_url('coin'),
             'time' => time(),
@@ -1478,7 +1479,8 @@ function site_shop_pay_succ_callback($order) {
 
             //发送消息到网站动态
             RiDynamic::add(array(
-                'info' => sprintf( __('使用%s成功开通了本站VIP会员', 'ripro-v2'),get_order_pay_type_text($order->pay_type) ), 
+                //'info' => sprintf( __('使用%s成功加入了本站VIP会员', 'ripro-v2'),get_order_pay_type_text($order->pay_type) ), 
+                'info' => sprintf( __('%s成功加入了本站VIP会员', 'ripro-v2'),'' ), 
                 'uid' => $order->user_id, 
                 'href' => get_user_page_url('vip'),
                 'time' => time(),
@@ -1494,7 +1496,7 @@ function site_shop_pay_succ_callback($order) {
 
             //发送消息到网站动态
             RiDynamic::add(array(
-                'info' => sprintf( __('成功购买了%s', 'ripro-v2'),get_the_title( $order->post_id ) ), 
+                'info' => sprintf( __('成功下载了%s', 'ripro-v2'),get_the_title( $order->post_id ) ), 
                 'uid' => $order->user_id, 
                 'href' => get_the_permalink( $order->post_id ),
                 'time' => time(),

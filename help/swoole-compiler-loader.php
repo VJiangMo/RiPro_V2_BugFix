@@ -130,30 +130,29 @@ if (extension_loaded('swoole_loader') && !$is_update) {
 // download_url
 
 // 下载 3.0 版本loader（64位）
-$url_content = 'https://ritheme.com/wp-content/uploads/swoole_loader/';
 $download_url=[
     'unix'=>[
         'nosafety'=>[
-            '7.4'=> $url_content . 'swoole_loader_74_nts.so',
-            '8.0'=> $url_content . 'swoole_loader_80_nts.so',
-            '8.1'=> $url_content . 'swoole_loader_81_nts.so',
+            '7.4'=>'https://compiler.swoole.com/static/loader2.2.0/swoole_loader74.so',
+            '8.0'=>'https://compiler.swoole.com/static/loader3.1.0/swoole_loader80.so',
+            '8.1'=>'https://compiler.swoole.com/static/loader3.1.0/swoole_loader81.so',
         ],
         'safety'=>[
-            '7.4'=> $url_content . 'swoole_loader_74_zts.so',
-            '8.0'=> $url_content . 'swoole_loader_80_zts.so',
-            '8.1'=> $url_content . 'swoole_loader_81_zts.so',
+            '7.4'=>'https://compiler.swoole.com/static/loader2.2.0/swoole_loader74_zts.so',
+            '8.0'=>'https://compiler.swoole.com/static/loader3.1.0/swoole_loader80_zts.so',
+            '8.1'=>'https://compiler.swoole.com/static/loader3.1.0/swoole_loader81_zts.so',
         ]
     ],
     'windows'=>[
         'nosafety'=>[
-            '7.4'=> $url_content . 'swoole_loader_74_nts.dll',
-            '8.0'=> $url_content . 'swoole_loader_80_nts.dll',
-            '8.1'=> $url_content . 'swoole_loader_81_nts.dll',
+            '7.4'=>'https://compiler.swoole.com/static/loader2.2.0/php_swoole_loader_php74_nzts_x64.dll',
+            '8.0'=>'https://compiler.swoole.com/static/loader3.1.0/swoole_loader80_nzts_x64.dll',
+            '8.1'=>'https://compiler.swoole.com/static/loader3.1.0/swoole_loader81_nzts_x64.dll',
         ],
         'safety'=>[
-            '7.4'=> $url_content . 'swoole_loader_74_zts.dll',
-            '8.0'=> $url_content . 'swoole_loader_80_nts.dll',
-            '8.1'=> $url_content . 'swoole_loader_81_nts.dll',
+            '7.4'=>'https://compiler.swoole.com/static/loader2.2.0/php_swoole_loader_php74_zts_x64.dll',
+            '8.0'=>'https://compiler.swoole.com/static/loader3.1.0/swoole_loader80_zts_x64.dll',
+            '8.1'=>'https://compiler.swoole.com/static/loader3.1.0/swoole_loader81_zts_x64.dll',
         ]
     ],
 ];

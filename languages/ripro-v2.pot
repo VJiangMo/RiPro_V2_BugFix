@@ -1,0 +1,2944 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: RiPro-V2\n"
+"POT-Creation-Date: 2022-07-23 16:59+0800\n"
+"PO-Revision-Date: 2022-07-23 16:59+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid ""
+"远方的朋友你好！非常抱歉，您所请求的页面不存在！\n"
+"请仔细检查您输入的网址是否正确。"
+msgstr ""
+
+#: archive-question.php:78 inc/template-question.php:95 pages/user/tou.php:64
+#: template-parts/global/archive-filter.php:41
+msgid "全部分类"
+msgstr ""
+
+#: archive-question.php:81 template-parts/global/archive-filter.php:49
+#: template-parts/global/archive-filter.php:69
+#: template-parts/global/archive-filter.php:180
+#: template-parts/global/archive-filter.php:199
+#, php-format
+msgid "%s个文章"
+msgstr ""
+
+#: archive-question.php:87 inc/options/widget-options.php:1199
+#: template-parts/global/archive-filter.php:280
+msgid "最新"
+msgstr ""
+
+#: archive-question.php:88 inc/template-filter.php:1221
+msgid "热门"
+msgstr ""
+
+#: archive-question.php:89
+msgid "未回答"
+msgstr ""
+
+#: archive-question.php:90
+msgid "已回答"
+msgstr ""
+
+#: archive-question.php:91
+msgid "发布新提问"
+msgstr ""
+
+#: archive-question.php:110
+msgid "问题标题"
+msgstr ""
+
+#: archive-question.php:111
+msgid "输入问题标题"
+msgstr ""
+
+#: archive-question.php:124
+msgid "选择分类"
+msgstr ""
+
+#: archive-question.php:128
+msgid "话题标签"
+msgstr ""
+
+#: archive-question.php:134
+msgid "问题描述"
+msgstr ""
+
+#: archive-question.php:145
+msgid "发布问题"
+msgstr ""
+
+#: comments-question.php:27
+#, php-format
+msgid "共以下 %s 个回答"
+msgstr ""
+
+#: comments-question.php:43 comments.php:68
+msgid "<i class=\"mdi mdi-chevron-left\"></i> 上一页"
+msgstr ""
+
+#: comments-question.php:43 comments.php:68
+msgid "下一页 <i class=\"mdi mdi-chevron-right\"></i>"
+msgstr ""
+
+#: comments-question.php:50 comments.php:23
+msgid "*昵称: "
+msgstr ""
+
+#: comments-question.php:51 comments.php:24
+msgid "*邮箱: "
+msgstr ""
+
+#: comments-question.php:52 comments.php:25
+msgid "网址: "
+msgstr ""
+
+#: comments-question.php:53
+msgid "浏览器会保存昵称、邮箱和网站cookies信息，下次回答时使用。"
+msgstr ""
+
+#: comments-question.php:63
+msgid "# 回答此问题"
+msgstr ""
+
+#: comments-question.php:67 comments.php:39
+msgid "插入图片"
+msgstr ""
+
+#: comments-question.php:68
+msgid "您需要登录后才可以发表内容..."
+msgstr ""
+
+#: comments-question.php:68 comments.php:40
+msgid "登录..."
+msgstr ""
+
+#: comments-question.php:68
+msgid "后才能回答"
+msgstr ""
+
+#: comments-question.php:68 comments.php:40
+msgid "发表"
+msgstr ""
+
+#: comments-question.php:71 comments.php:43
+msgid "提交"
+msgstr ""
+
+#: comments.php:26
+msgid "浏览器会保存昵称、邮箱和网站cookies信息，下次评论时使用。"
+msgstr ""
+
+#: comments.php:40
+msgid "您需要登录后才可以发表评论..."
+msgstr ""
+
+#: comments.php:40
+msgid "后才能评论"
+msgstr ""
+
+#: comments.php:51
+#, php-format
+msgid "评论(%s)"
+msgstr ""
+
+#: footer.php:23
+#, php-format
+msgid "SQL 请求数：%s 次"
+msgstr ""
+
+#: footer.php:23
+#, php-format
+msgid "页面生成耗时：%s 秒"
+msgstr ""
+
+#: functions.php:99
+msgid "顶部主菜单"
+msgstr ""
+
+#: functions.php:141
+msgid "个人中心"
+msgstr ""
+
+#: functions.php:142
+msgid "标签云"
+msgstr ""
+
+#: functions.php:143
+msgid "空白页面"
+msgstr ""
+
+#: functions.php:144
+msgid "网址导航"
+msgstr ""
+
+#: functions.php:145
+msgid "找回密码"
+msgstr ""
+
+#: functions.php:146
+msgid "模块化布局页面"
+msgstr ""
+
+#: functions.php:147
+msgid "专题列表"
+msgstr ""
+
+#: functions.php:178
+msgid "首页模块化布局"
+msgstr ""
+
+#: functions.php:180
+msgid "添加首页模块化布局"
+msgstr ""
+
+#: functions.php:195
+msgid "添加模块化布局"
+msgstr ""
+
+#: functions.php:206
+msgid "文章页侧边栏"
+msgstr ""
+
+#: functions.php:207
+msgid "分类页侧边栏"
+msgstr ""
+
+#: functions.php:208
+msgid "页面侧边栏"
+msgstr ""
+
+#: functions.php:209
+msgid "网站底部边栏"
+msgstr ""
+
+#: functions.php:218
+msgid "添加小工具到这里"
+msgstr ""
+
+#: inc/admin/admin_pay.php:16 inc/admin/cdk_order.php:16
+#: inc/admin/coin_order.php:23 inc/admin/down_order.php:18
+#: inc/admin/edit_price.php:16 inc/admin/pay_order.php:25
+#, php-format
+msgid "成功删除: %d 条记录"
+msgstr ""
+
+#: inc/admin/admin_pay.php:72
+msgid "-后台充值"
+msgstr ""
+
+#: inc/admin/admin_pay.php:160 inc/admin/aff_log.php:64
+#: inc/admin/aff_order.php:58 inc/admin/cdk_order.php:122
+#: inc/admin/coin_order.php:89 inc/admin/down_order.php:76
+#: inc/admin/edit_price.php:74 inc/admin/pay_order.php:88
+msgid "没有找到相关数据"
+msgstr ""
+
+#: inc/admin/admin_pay.php:189
+msgid "充值对象"
+msgstr ""
+
+#: inc/admin/admin_pay.php:190
+msgid "充值类型"
+msgstr ""
+
+#: inc/admin/admin_pay.php:191
+msgid "金额"
+msgstr ""
+
+#: inc/admin/admin_pay.php:192
+msgid "充值时间"
+msgstr ""
+
+#: inc/admin/admin_pay.php:193 inc/admin/cdk_order.php:157
+#: inc/template-admin.php:585
+msgid "状态"
+msgstr ""
+
+#: inc/admin/aff_log.php:90 inc/admin/aff_order.php:83
+#: inc/admin/down_order.php:105
+msgid "用户ID"
+msgstr ""
+
+#: inc/admin/aff_log.php:91 pages/user/aff.php:87
+msgid "提现金额"
+msgstr ""
+
+#: inc/admin/aff_log.php:92
+msgid "申请时间"
+msgstr ""
+
+#: inc/admin/aff_log.php:93
+msgid "审核时间"
+msgstr ""
+
+#: inc/admin/aff_log.php:94
+msgid "备注"
+msgstr ""
+
+#: inc/admin/aff_log.php:95
+msgid "提现状态"
+msgstr ""
+
+#: inc/admin/aff_log.php:96
+msgid "微信收款码"
+msgstr ""
+
+#: inc/admin/aff_log.php:97
+msgid "支付宝收款码"
+msgstr ""
+
+#: inc/admin/aff_log.php:98 pages/user/index.php:47
+msgid "联系QQ"
+msgstr ""
+
+#: inc/admin/aff_log.php:99
+msgid "联系电话"
+msgstr ""
+
+#: inc/admin/aff_order.php:84
+msgid "推广人数"
+msgstr ""
+
+#: inc/admin/aff_order.php:85
+msgid "佣金比例"
+msgstr ""
+
+#: inc/admin/aff_order.php:86
+msgid "累计佣金"
+msgstr ""
+
+#: inc/admin/aff_order.php:87
+msgid "可提现"
+msgstr ""
+
+#: inc/admin/aff_order.php:88
+msgid "提现中"
+msgstr ""
+
+#: inc/admin/aff_order.php:89
+msgid "已提现"
+msgstr ""
+
+#: inc/admin/cdk_order.php:38
+#, php-format
+msgid "成功添加: %d 条卡密"
+msgstr ""
+
+#: inc/admin/cdk_order.php:151
+msgid "卡密代码"
+msgstr ""
+
+#: inc/admin/cdk_order.php:152
+msgid "卡密类型"
+msgstr ""
+
+#: inc/admin/cdk_order.php:153
+msgid "卡密面值(站内币)"
+msgstr ""
+
+#: inc/admin/cdk_order.php:154
+msgid "创建时间"
+msgstr ""
+
+#: inc/admin/cdk_order.php:155
+msgid "到期时间"
+msgstr ""
+
+#: inc/admin/cdk_order.php:156
+msgid "使用时间"
+msgstr ""
+
+#: inc/admin/coin_order.php:32 inc/admin/pay_order.php:32
+msgid "成功清理未支付记录"
+msgstr ""
+
+#: inc/admin/coin_order.php:114 inc/admin/pay_order.php:113
+msgid "订单号"
+msgstr ""
+
+#: inc/admin/coin_order.php:115 inc/admin/pay_order.php:114
+msgid "用户"
+msgstr ""
+
+#: inc/admin/coin_order.php:116 inc/admin/pay_order.php:115
+msgid "商品"
+msgstr ""
+
+#: inc/admin/coin_order.php:117 inc/admin/pay_order.php:116
+msgid "订单价格"
+msgstr ""
+
+#: inc/admin/coin_order.php:118 inc/admin/pay_order.php:118
+msgid "下单时间"
+msgstr ""
+
+#: inc/admin/coin_order.php:119 inc/admin/pay_order.php:119
+msgid "支付方式"
+msgstr ""
+
+#: inc/admin/coin_order.php:120 inc/admin/pay_order.php:120
+msgid "支付时间"
+msgstr ""
+
+#: inc/admin/coin_order.php:121 inc/admin/pay_order.php:121
+msgid "支付单号"
+msgstr ""
+
+#: inc/admin/coin_order.php:122 inc/admin/pay_order.php:122
+msgid "支付状态"
+msgstr ""
+
+#: inc/admin/down_order.php:106
+msgid "用户等级"
+msgstr ""
+
+#: inc/admin/down_order.php:107
+msgid "下载名称"
+msgstr ""
+
+#: inc/admin/down_order.php:108
+msgid "下载IP"
+msgstr ""
+
+#: inc/admin/down_order.php:110
+msgid "下载时间"
+msgstr ""
+
+#: inc/admin/down_order.php:111
+msgid "今日可下载"
+msgstr ""
+
+#: inc/admin/down_order.php:112
+msgid "已下载次数"
+msgstr ""
+
+#: inc/admin/down_order.php:113
+msgid "剩余次数"
+msgstr ""
+
+#: inc/admin/edit_price.php:104
+msgid "文章ID"
+msgstr ""
+
+#: inc/admin/edit_price.php:105
+msgid "文章标题"
+msgstr ""
+
+#: inc/admin/edit_price.php:106
+msgid "发布时间"
+msgstr ""
+
+#: inc/admin/edit_price.php:107
+msgid "售价"
+msgstr ""
+
+#: inc/admin/edit_price.php:108
+msgid "会员折扣"
+msgstr ""
+
+#: inc/admin/edit_price.php:109
+msgid "普通用户禁止购买"
+msgstr ""
+
+#: inc/admin/edit_price.php:110
+msgid "永久会员免费"
+msgstr ""
+
+#: inc/admin/edit_price.php:111
+msgid "有效期天数"
+msgstr ""
+
+#: inc/admin/edit_price.php:249
+#, php-format
+msgid "成功修改: %d 个文章价格权限"
+msgstr ""
+
+#: inc/admin/pay_order.php:117 inc/options/shop-widget-options.php:172
+msgid "其他信息"
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:226
+msgid "Error while saving the changes."
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:286
+msgid "Settings successfully imported."
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:298
+#: inc/codestar-framework/classes/admin-options.class.php:314
+msgid "Default settings restored."
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:385
+msgid "Settings saved."
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:565
+msgid "You have unsaved changes, save your changes!"
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:567
+msgid "show all settings"
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:569
+#: inc/codestar-framework/fields/icon/icon.php:57
+#: inc/codestar-framework/fields/map/map.php:23
+msgid "Search..."
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:572
+#: inc/codestar-framework/classes/admin-options.class.php:695
+msgid "Save"
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:572
+#: inc/codestar-framework/classes/admin-options.class.php:695
+msgid "Saving..."
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:573
+#: inc/codestar-framework/classes/admin-options.class.php:696
+msgid "Reset Section"
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:573
+#: inc/codestar-framework/classes/admin-options.class.php:696
+msgid "Are you sure to reset this section options?"
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:574
+#: inc/codestar-framework/classes/admin-options.class.php:697
+msgid "Reset All"
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:574
+#: inc/codestar-framework/classes/admin-options.class.php:697
+#: inc/codestar-framework/classes/comment-options.class.php:216
+#: inc/codestar-framework/classes/metabox-options.class.php:294
+#: inc/codestar-framework/fields/backup/backup.php:31
+msgid "Reset"
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:574
+#: inc/codestar-framework/classes/admin-options.class.php:697
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr ""
+
+#: inc/codestar-framework/classes/admin-options.class.php:672
+#: inc/codestar-framework/classes/comment-options.class.php:199
+#: inc/codestar-framework/classes/metabox-options.class.php:277
+#: inc/codestar-framework/fields/button_set/button_set.php:56
+#: inc/codestar-framework/fields/checkbox/checkbox.php:76
+#: inc/codestar-framework/fields/radio/radio.php:75
+#: inc/codestar-framework/fields/select/select.php:117
+#: inc/codestar-framework/functions/actions.php:41
+msgid "No data available."
+msgstr ""
+
+#: inc/codestar-framework/classes/comment-options.class.php:217
+#: inc/codestar-framework/classes/metabox-options.class.php:295
+msgid "update post"
+msgstr ""
+
+#: inc/codestar-framework/classes/comment-options.class.php:217
+#: inc/codestar-framework/classes/metabox-options.class.php:295
+msgid "Cancel"
+msgstr ""
+
+#: inc/codestar-framework/classes/setup.class.php:594
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/codestar-framework/classes/setup.class.php:595
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: inc/codestar-framework/classes/setup.class.php:596
+msgid "Searching..."
+msgstr ""
+
+#: inc/codestar-framework/classes/setup.class.php:597
+msgid "No results found."
+msgstr ""
+
+#: inc/codestar-framework/classes/setup.class.php:698
+msgid "Oops! Not allowed."
+msgstr ""
+
+#: inc/codestar-framework/classes/setup.class.php:770
+#: inc/codestar-framework/classes/setup.class.php:774
+msgid "Field not found!"
+msgstr ""
+
+#: inc/codestar-framework/classes/shortcode-options.class.php:253
+#: inc/codestar-framework/fields/group/group.php:23
+msgid "Add New"
+msgstr ""
+
+#: inc/codestar-framework/classes/shortcode-options.class.php:290
+#: inc/codestar-framework/functions/actions.php:16
+#: inc/codestar-framework/functions/actions.php:68
+#: inc/codestar-framework/functions/actions.php:106
+#: inc/codestar-framework/functions/actions.php:141
+#: inc/codestar-framework/functions/actions.php:170
+msgid "Error: Invalid nonce verification."
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:36
+#: inc/codestar-framework/fields/media/media.php:59
+msgid "Not selected"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:72
+#: inc/codestar-framework/fields/date/date.php:31
+msgid "From"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:90
+#: inc/codestar-framework/fields/date/date.php:32
+msgid "To"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:108
+msgid "Direction"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:114
+msgid "Gradient Direction"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:115
+msgid "&#8659; top to bottom"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:116
+msgid "&#8658; left to right"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:117
+msgid "&#8664; corner top to right"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:118
+msgid "&#8665; corner top to left"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:161
+msgid "Background Position"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:162
+msgid "Left Top"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:163
+msgid "Left Center"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:164
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:165
+msgid "Center Top"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:166
+msgid "Center Center"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:167
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:168
+msgid "Right Top"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:169
+msgid "Right Center"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:170
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:184
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:185
+msgid "Repeat"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:186
+msgid "No Repeat"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:187
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:188
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:202
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:203
+msgid "Scroll"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:204
+msgid "Fixed"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:218
+msgid "Background Size"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:219
+msgid "Cover"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:220
+msgid "Contain"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:221
+msgid "Auto"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:235
+msgid "Background Origin"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:236
+#: inc/codestar-framework/fields/background/background.php:254
+msgid "Padding Box"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:237
+#: inc/codestar-framework/fields/background/background.php:253
+msgid "Border Box"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:238
+#: inc/codestar-framework/fields/background/background.php:255
+msgid "Content Box"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:252
+msgid "Background Clip"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:269
+msgid "Background Blend Mode"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:270
+#: inc/codestar-framework/fields/link_color/link_color.php:36
+#: inc/codestar-framework/fields/typography/typography.php:186
+msgid "Normal"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:271
+msgid "Multiply"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:272
+msgid "Screen"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:273
+msgid "Overlay"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:274
+msgid "Darken"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:275
+msgid "Lighten"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:276
+msgid "Color Dodge"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:277
+msgid "Saturation"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:278
+msgid "Color"
+msgstr ""
+
+#: inc/codestar-framework/fields/background/background.php:279
+msgid "Luminosity"
+msgstr ""
+
+#: inc/codestar-framework/fields/backup/backup.php:26
+msgid "Import"
+msgstr ""
+
+#: inc/codestar-framework/fields/backup/backup.php:29
+msgid "Export & Download"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:25
+#: inc/codestar-framework/fields/spacing/spacing.php:25
+msgid "top"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:26
+#: inc/codestar-framework/fields/spacing/spacing.php:26
+msgid "right"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:27
+#: inc/codestar-framework/fields/spacing/spacing.php:27
+msgid "bottom"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:28
+#: inc/codestar-framework/fields/spacing/spacing.php:28
+msgid "left"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:29
+#: inc/codestar-framework/fields/spacing/spacing.php:29
+msgid "all"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:51
+#: inc/codestar-framework/fields/typography/typography.php:214
+msgid "Solid"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:52
+#: inc/codestar-framework/fields/typography/typography.php:217
+msgid "Dashed"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:53
+#: inc/codestar-framework/fields/typography/typography.php:216
+msgid "Dotted"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:54
+#: inc/codestar-framework/fields/typography/typography.php:215
+msgid "Double"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:55
+msgid "Inset"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:56
+msgid "Outset"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:57
+msgid "Groove"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:58
+msgid "ridge"
+msgstr ""
+
+#: inc/codestar-framework/fields/border/border.php:59
+#: inc/codestar-framework/fields/typography/typography.php:199
+#: inc/codestar-framework/fields/typography/typography.php:213
+msgid "None"
+msgstr ""
+
+#: inc/codestar-framework/fields/dimensions/dimensions.php:22
+msgid "width"
+msgstr ""
+
+#: inc/codestar-framework/fields/dimensions/dimensions.php:23
+msgid "height"
+msgstr ""
+
+#: inc/codestar-framework/fields/gallery/gallery.php:20
+msgid "Add Gallery"
+msgstr ""
+
+#: inc/codestar-framework/fields/gallery/gallery.php:21
+msgid "Edit Gallery"
+msgstr ""
+
+#: inc/codestar-framework/fields/gallery/gallery.php:22
+msgid "Clear"
+msgstr ""
+
+#: inc/codestar-framework/fields/group/group.php:35
+#: inc/codestar-framework/fields/repeater/repeater.php:27
+msgid "Error: Field ID conflict."
+msgstr ""
+
+#: inc/codestar-framework/fields/group/group.php:46
+#: inc/codestar-framework/fields/group/group.php:87
+#: inc/codestar-framework/fields/repeater/repeater.php:48
+#: inc/codestar-framework/fields/repeater/repeater.php:76
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: inc/codestar-framework/fields/group/group.php:121
+#: inc/codestar-framework/fields/repeater/repeater.php:89
+msgid "You cannot add more."
+msgstr ""
+
+#: inc/codestar-framework/fields/group/group.php:122
+#: inc/codestar-framework/fields/repeater/repeater.php:90
+msgid "You cannot remove more."
+msgstr ""
+
+#: inc/codestar-framework/fields/icon/icon.php:20
+#: inc/codestar-framework/fields/icon/icon.php:53
+msgid "Add Icon"
+msgstr ""
+
+#: inc/codestar-framework/fields/icon/icon.php:21
+msgid "Remove Icon"
+msgstr ""
+
+#: inc/codestar-framework/fields/link/link.php:20
+msgid "Add Link"
+msgstr ""
+
+#: inc/codestar-framework/fields/link/link.php:21
+msgid "Edit Link"
+msgstr ""
+
+#: inc/codestar-framework/fields/link/link.php:22
+msgid "Remove Link"
+msgstr ""
+
+#: inc/codestar-framework/fields/link_color/link_color.php:37
+msgid "Hover"
+msgstr ""
+
+#: inc/codestar-framework/fields/link_color/link_color.php:38
+msgid "Active"
+msgstr ""
+
+#: inc/codestar-framework/fields/link_color/link_color.php:39
+msgid "Visited"
+msgstr ""
+
+#: inc/codestar-framework/fields/link_color/link_color.php:40
+msgid "Focus"
+msgstr ""
+
+#: inc/codestar-framework/fields/map/map.php:24
+msgid "Latitude"
+msgstr ""
+
+#: inc/codestar-framework/fields/map/map.php:25
+msgid "Longitude"
+msgstr ""
+
+#: inc/codestar-framework/fields/media/media.php:25
+#: inc/codestar-framework/fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: inc/codestar-framework/fields/media/media.php:26
+#: inc/codestar-framework/fields/upload/upload.php:25
+msgid "Remove"
+msgstr ""
+
+#: inc/codestar-framework/fields/sorter/sorter.php:21
+msgid "Enabled"
+msgstr ""
+
+#: inc/codestar-framework/fields/sorter/sorter.php:22
+msgid "Disabled"
+msgstr ""
+
+#: inc/codestar-framework/fields/switcher/switcher.php:20
+msgid "On"
+msgstr ""
+
+#: inc/codestar-framework/fields/switcher/switcher.php:21
+msgid "Off"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:96
+msgid "Font Family"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:97
+msgid "Select a font"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:105
+msgid "Backup Font Family"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:119
+#: inc/codestar-framework/fields/typography/typography.php:132
+#: inc/codestar-framework/fields/typography/typography.php:145
+#: inc/codestar-framework/fields/typography/typography.php:160
+#: inc/codestar-framework/fields/typography/typography.php:176
+#: inc/codestar-framework/fields/typography/typography.php:189
+#: inc/codestar-framework/fields/typography/typography.php:203
+#: inc/codestar-framework/fields/typography/typography.php:221
+msgid "Default"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:130
+msgid "Font Style"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:144
+#: inc/codestar-framework/fields/typography/typography.php:145
+msgid "Load Extra Styles"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:158
+msgid "Subset"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:168
+msgid "Text Align"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:170
+msgid "Inherit"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:171
+msgid "Left"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:172
+msgid "Center"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:173
+msgid "Right"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:174
+msgid "Justify"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:175
+msgid "Initial"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:184
+msgid "Font Variant"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:187
+msgid "Small Caps"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:188
+msgid "All Small Caps"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:197
+msgid "Text Transform"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:200
+msgid "Capitalize"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:201
+msgid "Uppercase"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:202
+msgid "Lowercase"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:211
+msgid "Text Decoration"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:218
+msgid "Wavy"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:219
+msgid "Overline"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:220
+msgid "Line-through"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:233
+msgid "Font Size"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:245
+msgid "Line Height"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:257
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:269
+msgid "Word Spacing"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:284
+msgid "Font Color"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:295
+msgid "Custom Style"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:362
+msgid "Custom Web Fonts"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:368
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: inc/codestar-framework/fields/typography/typography.php:388
+msgid "Google Web Fonts"
+msgstr ""
+
+#: inc/codestar-framework/functions/actions.php:72
+#: inc/codestar-framework/functions/actions.php:110
+msgid "Error: Invalid key."
+msgstr ""
+
+#: inc/codestar-framework/functions/actions.php:114
+msgid "Error: The response is not a valid JSON response."
+msgstr ""
+
+#: inc/codestar-framework/functions/actions.php:174
+msgid "Error: Invalid term ID."
+msgstr ""
+
+#: inc/codestar-framework/functions/actions.php:180
+msgid "Error: You do not have permission to do that."
+msgstr ""
+
+#: inc/codestar-framework/functions/validate.php:14
+#: inc/codestar-framework/functions/validate.php:86
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: inc/codestar-framework/functions/validate.php:32
+#: inc/codestar-framework/functions/validate.php:106
+msgid "Please enter a valid number."
+msgstr ""
+
+#: inc/codestar-framework/functions/validate.php:50
+#: inc/codestar-framework/functions/validate.php:126
+msgid "This field is required."
+msgstr ""
+
+#: inc/codestar-framework/functions/validate.php:68
+#: inc/codestar-framework/functions/validate.php:146
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: inc/goto.php:25 inc/goto.php:33
+msgid "非法请求"
+msgstr ""
+
+#: inc/goto.php:41
+msgid "您没有权限下载"
+msgstr ""
+
+#: inc/goto.php:78
+#, php-format
+msgid "下载了%s"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:82
+#: inc/options/shop-widget-options.php:85
+msgid "您已购买"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:88
+#: inc/options/shop-widget-options.php:91
+#: inc/options/shop-widget-options.php:94
+msgid "免费下载"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:97
+msgid "资源信息"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:115 inc/options/shortcode-options.php:81
+#: inc/template-ajax.php:1374 template-parts/content/hero-video.php:52
+msgid "暂无购买权限"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:117
+#: inc/options/shop-widget-options.php:125 inc/template-ajax.php:1376
+#: inc/template-ajax.php:1384
+msgid "登录后下载"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:152
+#: template-parts/content/entry-share.php:50
+msgid "链接"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:152
+#: template-parts/content/hero-shop.php:44
+msgid "演示地址"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:155
+#: template-parts/content/hero-shop.php:47
+msgid "购买后永久有效"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:155
+#: template-parts/content/hero-shop.php:47
+#, php-format
+msgid "购买后 %s 天内有效"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:156
+#: template-parts/content/hero-shop.php:48
+msgid "有效期"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:159
+msgid "累计销量"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:163
+msgid "累计下载"
+msgstr ""
+
+#: inc/options/shop-widget-options.php:167
+#: template-parts/content/hero-shop.php:51
+msgid "最近更新"
+msgstr ""
+
+#: inc/options/shortcode-options.php:70
+msgid "隐藏内容"
+msgstr ""
+
+#: inc/options/shortcode-options.php:77
+msgid "此处内容需要权限查看"
+msgstr ""
+
+#: inc/options/shortcode-options.php:83
+#: template-parts/content/hero-video.php:54
+msgid "登录后购买"
+msgstr ""
+
+#: inc/options/shortcode-options.php:85
+msgid "购买本内容"
+msgstr ""
+
+#: inc/options/shortcode-options.php:88
+msgid "免费查看"
+msgstr ""
+
+#: inc/options/shortcode-options.php:97
+msgid "登录后免费查看"
+msgstr ""
+
+#: inc/options/shortcode-options.php:413
+msgid "***此处内容评论后可见***"
+msgstr ""
+
+#: inc/options/shortcode-options.php:413
+msgid "温馨提示：此处为隐藏内容，需要评论或回复留言后可见"
+msgstr ""
+
+#: inc/options/shortcode-options.php:413
+msgid "评论查看"
+msgstr ""
+
+#: inc/options/shortcode-options.php:452
+msgid "***此处内容登录后可见***"
+msgstr ""
+
+#: inc/options/shortcode-options.php:452
+msgid "温馨提示：此处为隐藏内容，需要登录后可见"
+msgstr ""
+
+#: inc/options/shortcode-options.php:452
+msgid "登录查看"
+msgstr ""
+
+#: inc/options/widget-options.php:170
+msgid "暂无动态"
+msgstr ""
+
+#: inc/options/widget-options.php:196
+msgid "游客"
+msgstr ""
+
+#: inc/options/widget-options.php:205 inc/template-tags.php:818
+#: template-parts/content/single-question.php:40
+#: template-parts/loop/item-list-question.php:41
+#, php-format
+msgid "%s前"
+msgstr ""
+
+#: inc/options/widget-options.php:214
+msgid "今日发布"
+msgstr ""
+
+#: inc/options/widget-options.php:215
+msgid "本周"
+msgstr ""
+
+#: inc/options/widget-options.php:216
+msgid "总数"
+msgstr ""
+
+#: inc/options/widget-options.php:585
+msgid "全站"
+msgstr ""
+
+#: inc/options/widget-options.php:605
+msgid "热门搜索："
+msgstr ""
+
+#: inc/options/widget-options.php:1075
+msgid "文章"
+msgstr ""
+
+#: inc/options/widget-options.php:1355
+#: template-parts/global/archive-filter.php:128
+#: template-parts/global/archive-filter.php:235
+#: template-parts/global/archive-filter.php:256
+#: template-parts/global/omnisearch.php:18
+msgid "全部"
+msgstr ""
+
+#: inc/options/widget-options.php:1829
+#, php-format
+msgid "专题 +%s"
+msgstr ""
+
+#: inc/options/widget-options.php:1837 pages/page-series.php:48
+msgid "进入专题"
+msgstr ""
+
+#: inc/options/widget-options.php:1988
+msgid "查看更多"
+msgstr ""
+
+#: inc/options/widget-options.php:2181
+msgid "前往开通"
+msgstr ""
+
+#: inc/options/widget-options.php:2453 pages/user/menu.php:28
+msgid "累计消费"
+msgstr ""
+
+#: inc/template-admin.php:64
+#, php-format
+msgid "商城管理 <span class=\"awaiting-mod\">+%d</span>"
+msgstr ""
+
+#: inc/template-admin.php:65
+#, php-format
+msgid "订单总览 <span class=\"awaiting-mod\">+%d</span>"
+msgstr ""
+
+#: inc/template-admin.php:66
+#, php-format
+msgid "充值记录 <span class=\"awaiting-mod\">+%d</span>"
+msgstr ""
+
+#: inc/template-admin.php:67
+#, php-format
+msgid "下载记录 <span class=\"awaiting-mod\">+%d</span>"
+msgstr ""
+
+#: inc/template-admin.php:68
+#, php-format
+msgid "佣金管理 <span class=\"awaiting-mod\">+%d</span>"
+msgstr ""
+
+#: inc/template-admin.php:71
+msgid "商城管理"
+msgstr ""
+
+#: inc/template-admin.php:73
+msgid "商城总览"
+msgstr ""
+
+#: inc/template-admin.php:78
+msgid "提现管理"
+msgstr ""
+
+#: inc/template-admin.php:79
+msgid "卡密管理"
+msgstr ""
+
+#: inc/template-admin.php:80
+msgid "后台充值"
+msgstr ""
+
+#: inc/template-admin.php:81
+msgid "批量修改"
+msgstr ""
+
+#: inc/template-admin.php:581
+msgid "注册时间"
+msgstr ""
+
+#: inc/template-admin.php:582
+msgid "最近登录"
+msgstr ""
+
+#: inc/template-admin.php:583
+msgid "会员等级"
+msgstr ""
+
+#: inc/template-admin.php:584
+msgid "余额"
+msgstr ""
+
+#: inc/template-admin.php:607
+msgid "封号中"
+msgstr ""
+
+#: inc/template-admin.php:609
+msgid "正常"
+msgstr ""
+
+#: inc/template-ajax.php:146
+msgid "本站已经关闭登录功能"
+msgstr ""
+
+#: inc/template-ajax.php:158
+msgid "请输入登录账号或密码"
+msgstr ""
+
+#: inc/template-ajax.php:163 inc/template-ajax.php:221
+#: inc/template-ajax.php:272
+msgid "安全验证失败"
+msgstr ""
+
+#: inc/template-ajax.php:170
+msgid "用户名或密码错误"
+msgstr ""
+
+#: inc/template-ajax.php:174
+msgid "您的账号检测异常，"
+msgstr ""
+
+#: inc/template-ajax.php:179
+msgid "登录成功"
+msgstr ""
+
+#: inc/template-ajax.php:202
+msgid "本站已经关闭新用户注册"
+msgstr ""
+
+#: inc/template-ajax.php:206 inc/template-ajax.php:389
+msgid "邮箱地址错误"
+msgstr ""
+
+#: inc/template-ajax.php:210
+msgid "密码长度不得小于6位"
+msgstr ""
+
+#: inc/template-ajax.php:213 inc/template-ajax.php:348
+#: inc/template-ajax.php:707
+msgid "两次输入的密码不一致"
+msgstr ""
+
+#: inc/template-ajax.php:216
+msgid "邮箱已经被注册"
+msgstr ""
+
+#: inc/template-ajax.php:228 inc/template-ajax.php:401
+msgid "邮箱验证码错误"
+msgstr ""
+
+#: inc/template-ajax.php:235 inc/template-ajax.php:236
+#: inc/template-ajax.php:463
+msgid "新用户"
+msgstr ""
+
+#: inc/template-ajax.php:242
+msgid "注册信息异常，请刷新页面重试"
+msgstr ""
+
+#: inc/template-ajax.php:249
+msgid "注册成功"
+msgstr ""
+
+#: inc/template-ajax.php:267
+msgid "请输入用户名或邮箱"
+msgstr ""
+
+#: inc/template-ajax.php:280
+msgid "该邮箱账号不存在"
+msgstr ""
+
+#: inc/template-ajax.php:285
+msgid "该用户名不存在"
+msgstr ""
+
+#: inc/template-ajax.php:296
+msgid "账号异常，请刷新页面"
+msgstr ""
+
+#: inc/template-ajax.php:311
+msgid "站点名称: "
+msgstr ""
+
+#: inc/template-ajax.php:313
+msgid "账号ID: "
+msgstr ""
+
+#: inc/template-ajax.php:315
+msgid "要重置您的密码，请打开下面的链接"
+msgstr ""
+
+#: inc/template-ajax.php:319
+msgid "如果不是您本人发送，请忽略本邮件，不会造成任何错误"
+msgstr ""
+
+#: inc/template-ajax.php:321
+msgid "重置密码邮件提醒"
+msgstr ""
+
+#: inc/template-ajax.php:324
+msgid "密码重置链接发送成功，请前往邮箱查看继续"
+msgstr ""
+
+#: inc/template-ajax.php:326
+msgid "电子邮件发送失败，请稍后重试"
+msgstr ""
+
+#: inc/template-ajax.php:345
+msgid "参数错误，请返回重试"
+msgstr ""
+
+#: inc/template-ajax.php:353 inc/template-ajax.php:394
+#: inc/template-ajax.php:658 inc/template-ajax.php:712
+msgid "安全验证失败，请刷新页面重试"
+msgstr ""
+
+#: inc/template-ajax.php:362
+msgid "重置密码链接已过期，请重新找回密码"
+msgstr ""
+
+#: inc/template-ajax.php:364
+msgid "重置密码链接无效，请重新找回密码"
+msgstr ""
+
+#: inc/template-ajax.php:369
+msgid "密码重置成功，请使用新密码登录"
+msgstr ""
+
+#: inc/template-ajax.php:405
+msgid "邮箱已存在绑定，请更换其他邮箱"
+msgstr ""
+
+#: inc/template-ajax.php:410
+msgid "绑定失败，请刷新重试"
+msgstr ""
+
+#: inc/template-ajax.php:412
+msgid "绑定成功"
+msgstr ""
+
+#: inc/template-ajax.php:431
+msgid "邮箱已存在"
+msgstr ""
+
+#: inc/template-ajax.php:434
+msgid "发送成功"
+msgstr ""
+
+#: inc/template-ajax.php:436
+msgid "发送失败"
+msgstr ""
+
+#: inc/template-ajax.php:459 inc/template-ajax.php:496
+#: inc/template-ajax.php:645 inc/template-ajax.php:698
+#: inc/template-ajax.php:746 inc/template-question.php:314
+msgid "非法请求，请刷新重试"
+msgstr ""
+
+#: inc/template-ajax.php:475
+msgid "保存成功"
+msgstr ""
+
+#: inc/template-ajax.php:477
+msgid "保存失败，请刷新重试"
+msgstr ""
+
+#: inc/template-ajax.php:506
+msgid "图片类型错误"
+msgstr ""
+
+#: inc/template-ajax.php:510
+msgid "头像最大限制80KB"
+msgstr ""
+
+#: inc/template-ajax.php:563
+msgid "当前提现通道暂未开放"
+msgstr ""
+
+#: inc/template-ajax.php:567
+msgid "最低提现金额限制"
+msgstr ""
+
+#: inc/template-ajax.php:571
+msgid "可提现金额不足"
+msgstr ""
+
+#: inc/template-ajax.php:581
+#, php-format
+msgid "成功提现了%s%s至钱包余额"
+msgstr ""
+
+#: inc/template-ajax.php:596
+msgid "提现申请成功，请联系站长发送收款信息审核"
+msgstr ""
+
+#: inc/template-ajax.php:600
+msgid "提现方式异常"
+msgstr ""
+
+#: inc/template-ajax.php:617
+msgid "解绑类型错误，请刷新重试"
+msgstr ""
+
+#: inc/template-ajax.php:625
+msgid "解绑成功"
+msgstr ""
+
+#: inc/template-ajax.php:649
+msgid "请输入完整的文章标题/分类/内容"
+msgstr ""
+
+#: inc/template-ajax.php:674
+msgid "投稿失败，请刷新重试！"
+msgstr ""
+
+#: inc/template-ajax.php:677
+msgid "投稿成功，感谢您宝贵的投稿！"
+msgstr ""
+
+#: inc/template-ajax.php:701
+msgid "请输入完整密码修改信息"
+msgstr ""
+
+#: inc/template-ajax.php:704
+msgid "新密码不能与旧密码相同"
+msgstr ""
+
+#: inc/template-ajax.php:722
+msgid "密码修改成功，请使用新密码重新登录"
+msgstr ""
+
+#: inc/template-ajax.php:726
+msgid "密码设置成功，请使用新密码登录账号"
+msgstr ""
+
+#: inc/template-ajax.php:728
+msgid "旧密码错误，请输入正确的密码"
+msgstr ""
+
+#: inc/template-ajax.php:750
+msgid "请登录后签到"
+msgstr ""
+
+#: inc/template-ajax.php:753
+msgid "签到功能暂未开启"
+msgstr ""
+
+#: inc/template-ajax.php:756
+msgid "今日已签到，请明日再来"
+msgstr ""
+
+#: inc/template-ajax.php:763
+#, php-format
+msgid "签到打卡成功，获得奖励：%s%s"
+msgstr ""
+
+#: inc/template-ajax.php:769
+msgid "签到成功，奖励已到账："
+msgstr ""
+
+#: inc/template-ajax.php:773
+msgid "签到异常"
+msgstr ""
+
+#: inc/template-ajax.php:808
+msgid "请登录收藏"
+msgstr ""
+
+#: inc/template-ajax.php:813
+msgid "已取消收藏"
+msgstr ""
+
+#: inc/template-ajax.php:817
+msgid "收藏成功"
+msgstr ""
+
+#: inc/template-ajax.php:842 inc/template-ajax.php:928
+#: inc/template-ajax.php:1009 inc/template-ajax.php:1069
+msgid "非法请求，请刷新当前页面重试"
+msgstr ""
+
+#: inc/template-ajax.php:845
+msgid "请登录后再进行购买"
+msgstr ""
+
+#: inc/template-ajax.php:848 inc/template-ajax.php:933
+#: inc/template-ajax.php:1012
+msgid "请选择支付方式"
+msgstr ""
+
+#: inc/template-ajax.php:852
+msgid "资源仅限站内余额支付"
+msgstr ""
+
+#: inc/template-ajax.php:856
+msgid "购买ID参数错误"
+msgstr ""
+
+#: inc/template-ajax.php:864
+msgid "普通用户无权购买，请升级用户等级后购买"
+msgstr ""
+
+#: inc/template-ajax.php:868
+msgid "免费资源无需购买"
+msgstr ""
+
+#: inc/template-ajax.php:876
+msgid "您已获得该资源权限，无需重复购买"
+msgstr ""
+
+#: inc/template-ajax.php:903 inc/template-ajax.php:984
+#: inc/template-ajax.php:1044 inc/template-ajax.php:1103
+msgid "添加订单失败，请刷新当前页面重试"
+msgstr ""
+
+#: inc/template-ajax.php:937
+msgid "仅支持在线支付方式开通"
+msgstr ""
+
+#: inc/template-ajax.php:942
+msgid "您已经获得最高特权"
+msgstr ""
+
+#: inc/template-ajax.php:957
+msgid "请选择开通会员类型"
+msgstr ""
+
+#: inc/template-ajax.php:1016
+msgid "请选择充值数量"
+msgstr ""
+
+#: inc/template-ajax.php:1020
+msgid "请输入正确充值数量"
+msgstr ""
+
+#: inc/template-ajax.php:1072
+msgid "卡密通道暂未开启"
+msgstr ""
+
+#: inc/template-ajax.php:1078
+msgid "请输入有效卡密"
+msgstr ""
+
+#: inc/template-ajax.php:1092
+msgid "-卡密充值"
+msgstr ""
+
+#: inc/template-ajax.php:1125
+msgid "有订单正在支付中"
+msgstr ""
+
+#: inc/template-ajax.php:1133
+msgid "恭喜你，支付成功"
+msgstr ""
+
+#: inc/template-ajax.php:1205
+msgid "登录超时，请刷新页面重试"
+msgstr ""
+
+#: inc/template-ajax.php:1225
+msgid "登录成功，即将刷新页面"
+msgstr ""
+
+#: inc/template-ajax.php:1292
+msgid "评论功能未开启"
+msgstr ""
+
+#: inc/template-ajax.php:1326 inc/template-navwalker.php:242
+msgid "您的评论正在等待审核。"
+msgstr ""
+
+#: inc/template-ajax.php:1359
+msgid "按钮获取异常"
+msgstr ""
+
+#: inc/template-enqueue.php:108 inc/template-tags.php:1224
+msgid "加载更多"
+msgstr ""
+
+#: inc/template-enqueue.php:109
+msgid "加载中..."
+msgstr ""
+
+#: inc/template-enqueue.php:112 inc/template-enqueue.php:114
+#: inc/template-enqueue.php:115
+msgid "请点击安全验证"
+msgstr ""
+
+#: inc/template-enqueue.php:113
+msgid "邮箱格式错误"
+msgstr ""
+
+#: inc/template-enqueue.php:116 pages/page-login.php:100
+#: pages/page-login.php:101 pages/user/tou.php:131
+msgid "请点击验证按钮进行验证"
+msgstr ""
+
+#: inc/template-enqueue.php:117
+msgid " 复制成功"
+msgstr ""
+
+#: inc/template-enqueue.php:118
+msgid "海报加载异常"
+msgstr ""
+
+#: inc/template-enqueue.php:119
+msgid "请使用微信扫码登录"
+msgstr ""
+
+#: inc/template-enqueue.php:120
+msgid "关注公众号即可登录</br>二维码有效期3分钟"
+msgstr ""
+
+#: inc/template-enqueue.php:121
+msgid "支付完成"
+msgstr ""
+
+#: inc/template-enqueue.php:122
+msgid "取消支付"
+msgstr ""
+
+#: inc/template-enqueue.php:123
+msgid "支付成功"
+msgstr ""
+
+#: inc/template-enqueue.php:124
+msgid "验证中"
+msgstr ""
+
+#: inc/template-enqueue.php:125
+msgid "验证通过"
+msgstr ""
+
+#: inc/template-enqueue.php:126
+msgid "验证失败"
+msgstr ""
+
+#: inc/template-enqueue.php:127
+msgid "请输入图片URL地址"
+msgstr ""
+
+#: inc/template-enqueue.php:128
+msgid "提交中...."
+msgstr ""
+
+#: inc/template-enqueue.php:129
+msgid "提交成功"
+msgstr ""
+
+#: inc/template-filter.php:77
+msgid "Page not found"
+msgstr ""
+
+#. translators: %s: Search query.
+#: inc/template-filter.php:82
+#, php-format
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/template-filter.php:114
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-filter.php:117
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#. translators: %s: Page number.
+#: inc/template-filter.php:126
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-filter.php:760
+#, php-format
+msgid "成功登录了本站%s"
+msgstr ""
+
+#: inc/template-filter.php:786
+#, php-format
+msgid "成功加入了本站新用户%s"
+msgstr ""
+
+#: inc/template-filter.php:909
+msgid "登录提示"
+msgstr ""
+
+#: inc/template-filter.php:909
+msgid "请登录后即可进行站内搜索"
+msgstr ""
+
+#: inc/template-filter.php:931
+msgid "安全搜索友情提示"
+msgstr ""
+
+#: inc/template-filter.php:1018
+msgid "评论必须含中文！"
+msgstr ""
+
+#: inc/template-filter.php:1027
+msgid "你填写的某项信息或IP地址已被列入黑名单，无法进行评论，请文明评论！"
+msgstr ""
+
+#: inc/template-filter.php:1048
+#, php-format
+msgid "评论了%s"
+msgstr ""
+
+#: inc/template-filter.php:1218 inc/template-filter.php:1232
+#: pages/page-series.php:44 template-parts/global/term-bar.php:24
+msgid "专题"
+msgstr ""
+
+#: inc/template-filter.php:1220
+msgid "搜索"
+msgstr ""
+
+#: inc/template-filter.php:1222
+msgid "所有"
+msgstr ""
+
+#: inc/template-filter.php:1225
+msgid "编辑"
+msgstr ""
+
+#: inc/template-filter.php:1226 template-parts/global/archive-filter.php:282
+msgid "更新"
+msgstr ""
+
+#: inc/template-filter.php:1227
+msgid "添加"
+msgstr ""
+
+#: inc/template-filter.php:1228
+msgid "专题名称"
+msgstr ""
+
+#: inc/template-filter.php:1229
+msgid "按逗号分开"
+msgstr ""
+
+#: inc/template-filter.php:1230
+msgid "添加或删除"
+msgstr ""
+
+#: inc/template-filter.php:1231
+msgid "从经常使用的类型中选择"
+msgstr ""
+
+#: inc/template-navwalker.php:156
+msgid "添加菜单"
+msgstr ""
+
+#: inc/template-navwalker.php:222 inc/template-navwalker.php:307
+msgid " @ "
+msgstr ""
+
+#: inc/template-navwalker.php:327
+msgid "您的回答正在等待审核。"
+msgstr ""
+
+#: inc/template-navwalker.php:334
+msgid "赞同"
+msgstr ""
+
+#: inc/template-navwalker.php:335
+msgid "条回复"
+msgstr ""
+
+#: inc/template-question.php:15
+msgid "问答社区"
+msgstr ""
+
+#: inc/template-question.php:16 inc/template-question.php:17
+#: inc/template-question.php:18
+msgid "问答"
+msgstr ""
+
+#: inc/template-question.php:19 inc/template-question.php:21
+msgid "新提问"
+msgstr ""
+
+#: inc/template-question.php:20
+msgid "添加新提问"
+msgstr ""
+
+#: inc/template-question.php:22
+msgid "编辑问题"
+msgstr ""
+
+#: inc/template-question.php:23
+msgid "查看问题"
+msgstr ""
+
+#: inc/template-question.php:24
+msgid "全部问题"
+msgstr ""
+
+#: inc/template-question.php:25 template-parts/global/widget-question.php:9
+msgid "搜索问题"
+msgstr ""
+
+#: inc/template-question.php:26 inc/template-question.php:27
+msgid "未找到问题."
+msgstr ""
+
+#: inc/template-question.php:28
+msgid "问题存档"
+msgstr ""
+
+#: inc/template-question.php:29
+msgid "插入问题"
+msgstr ""
+
+#: inc/template-question.php:30
+msgid "上传到此问题"
+msgstr ""
+
+#: inc/template-question.php:31
+msgid "筛选问题列表"
+msgstr ""
+
+#: inc/template-question.php:32
+msgid "问题列表导航"
+msgstr ""
+
+#: inc/template-question.php:33
+msgid "问题列表"
+msgstr ""
+
+#: inc/template-question.php:38
+msgid "快速问答社区"
+msgstr ""
+
+#: inc/template-question.php:59 inc/template-question.php:60
+#: inc/template-question.php:72
+msgid "问答话题"
+msgstr ""
+
+#: inc/template-question.php:61
+msgid "搜索话题"
+msgstr ""
+
+#: inc/template-question.php:62
+msgid "全部话题"
+msgstr ""
+
+#: inc/template-question.php:63
+msgid "查看话题"
+msgstr ""
+
+#: inc/template-question.php:66
+msgid "编辑话题"
+msgstr ""
+
+#: inc/template-question.php:67
+msgid "更新话题"
+msgstr ""
+
+#: inc/template-question.php:68
+msgid "添加新话题"
+msgstr ""
+
+#: inc/template-question.php:69
+msgid "新话题名称"
+msgstr ""
+
+#: inc/template-question.php:70
+msgid "没有找到话题"
+msgstr ""
+
+#: inc/template-question.php:71
+msgid "返回话题"
+msgstr ""
+
+#: inc/template-question.php:73 template-parts/global/widget-question.php:61
+msgid "热门话题"
+msgstr ""
+
+#: inc/template-question.php:74
+msgid "从常用话题中选择"
+msgstr ""
+
+#: inc/template-question.php:92 inc/template-question.php:93
+#: inc/template-question.php:105
+msgid "问答分类"
+msgstr ""
+
+#: inc/template-question.php:94
+msgid "搜索分类"
+msgstr ""
+
+#: inc/template-question.php:96
+msgid "查看分类"
+msgstr ""
+
+#: inc/template-question.php:99
+msgid "编辑分类"
+msgstr ""
+
+#: inc/template-question.php:100
+msgid "更新分类"
+msgstr ""
+
+#: inc/template-question.php:101
+msgid "添加新分类"
+msgstr ""
+
+#: inc/template-question.php:102
+msgid "新分类名称"
+msgstr ""
+
+#: inc/template-question.php:103
+msgid "没有找到分类"
+msgstr ""
+
+#: inc/template-question.php:104
+msgid "返回分类"
+msgstr ""
+
+#: inc/template-question.php:106
+msgid "热门分类"
+msgstr ""
+
+#: inc/template-question.php:107
+msgid "从常用分类中选择"
+msgstr ""
+
+#: inc/template-question.php:268
+msgid "请登录后点赞"
+msgstr ""
+
+#: inc/template-question.php:272
+msgid "请选择点赞条目"
+msgstr ""
+
+#: inc/template-question.php:282
+msgid "您已投票"
+msgstr ""
+
+#: inc/template-question.php:291
+msgid "点赞成功"
+msgstr ""
+
+#: inc/template-question.php:296
+msgid "点赞异常"
+msgstr ""
+
+#: inc/template-question.php:318
+msgid "请登录后发布"
+msgstr ""
+
+#: inc/template-question.php:322
+msgid "请输入完整的文章标题/分类"
+msgstr ""
+
+#: inc/template-question.php:326
+msgid "标题太短"
+msgstr ""
+
+#: inc/template-question.php:334
+msgid "发布成功，审核后展示"
+msgstr ""
+
+#: inc/template-question.php:337
+msgid "新问题发布成功"
+msgstr ""
+
+#: inc/template-question.php:351
+msgid "发布失败"
+msgstr ""
+
+#: inc/template-shop.php:16
+msgid "普通"
+msgstr ""
+
+#: inc/template-shop.php:17
+msgid "VIP"
+msgstr ""
+
+#: inc/template-shop.php:18
+msgid "终身VIP"
+msgstr ""
+
+#: inc/template-shop.php:493
+msgid "不可下载"
+msgstr ""
+
+#: inc/template-shop.php:495 inc/template-tags.php:851
+#: template-parts/global/archive-filter.php:98
+#: template-parts/global/archive-filter.php:100
+#: template-parts/global/archive-filter.php:102
+#: template-parts/global/archive-filter.php:257
+#: template-parts/global/archive-filter.php:259
+#: template-parts/global/archive-filter.php:261
+msgid "免费"
+msgstr ""
+
+#: inc/template-shop.php:501
+msgid "折"
+msgstr ""
+
+#: inc/template-shop.php:503
+msgid "推荐"
+msgstr ""
+
+#: inc/template-shop.php:507
+msgid "用户特权："
+msgstr ""
+
+#: inc/template-shop.php:535
+msgid "点击复制密码"
+msgstr ""
+
+#: inc/template-shop.php:535
+msgid "密码："
+msgstr ""
+
+#: inc/template-shop.php:643 pages/user/vip.php:53
+msgid "到期时间："
+msgstr ""
+
+#: inc/template-shop.php:992
+msgid "PayPal"
+msgstr ""
+
+#: inc/template-shop.php:997
+msgid "支付宝"
+msgstr ""
+
+#: inc/template-shop.php:1001
+msgid "微信支付"
+msgstr ""
+
+#: inc/template-shop.php:1006
+msgid "余额支付"
+msgstr ""
+
+#: inc/template-shop.php:1355 template-parts/global/header-menu.php:73
+msgid "充值"
+msgstr ""
+
+#: inc/template-shop.php:1360
+msgid "永久"
+msgstr ""
+
+#: inc/template-shop.php:1360
+msgid "天"
+msgstr ""
+
+#: inc/template-shop.php:1361 inc/template-shop.php:1363
+msgid "开通会员"
+msgstr ""
+
+#: inc/template-shop.php:1365 inc/template-shop.php:1370
+msgid "其他订单"
+msgstr ""
+
+#: inc/template-shop.php:1423
+#, php-format
+msgid "通过推广链接获得佣金奖励：￥%s"
+msgstr ""
+
+#: inc/template-shop.php:1440
+#, php-format
+msgid "使用%s成功充值了%s%s"
+msgstr ""
+
+#: inc/template-shop.php:1456
+#, php-format
+msgid "使用%s成功开通了本站VIP会员"
+msgstr ""
+
+#: inc/template-shop.php:1472
+#, php-format
+msgid "成功购买了%s"
+msgstr ""
+
+#: inc/template-tags.php:332 inc/template-tags.php:1292
+msgid "首页"
+msgstr ""
+
+#: inc/template-tags.php:333
+msgid "返回"
+msgstr ""
+
+#: inc/template-tags.php:853
+msgid "专属"
+msgstr ""
+
+#: inc/template-tags.php:1124 inc/template-tags.php:1175
+#: inc/template-tags.php:1268
+msgid "<i class=\"fa fa-chevron-left\"></i> 上一页"
+msgstr ""
+
+#: inc/template-tags.php:1165 inc/template-tags.php:1215
+#: inc/template-tags.php:1269
+msgid "下一页 <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:1292
+msgid "当前位置："
+msgstr ""
+
+#: inc/template-tags.php:1326
+msgid "正文"
+msgstr ""
+
+#: inc/template-tags.php:1344
+msgid "问题详情"
+msgstr ""
+
+#: inc/template-tags.php:1375
+msgid "无"
+msgstr ""
+
+#: inc/template-tags.php:1376
+#, php-format
+msgid "搜索: %s"
+msgstr ""
+
+#: inc/template-tags.php:1386
+msgid "404 ERROR"
+msgstr ""
+
+#: inc/template-tags.php:1391
+#, php-format
+msgid "第%s页"
+msgstr ""
+
+#: inc/template-tags.php:1474
+msgid "验证码："
+msgstr ""
+
+#: inc/template-tags.php:1524
+msgid "点击安全验证"
+msgstr ""
+
+#: inc/template-tags.php:1658
+msgid "我的余额"
+msgstr ""
+
+#: inc/template-tags.php:1659
+msgid "我的会员"
+msgstr ""
+
+#: inc/template-tags.php:1660
+msgid "购买记录"
+msgstr ""
+
+#: inc/template-tags.php:1661 pages/user/down.php:34
+msgid "下载记录"
+msgstr ""
+
+#: inc/template-tags.php:1662 pages/user/fav.php:37
+msgid "我的收藏"
+msgstr ""
+
+#: inc/template-tags.php:1663
+msgid "推广中心"
+msgstr ""
+
+#: inc/template-tags.php:1664 pages/user/tou.php:19
+msgid "文章投稿"
+msgstr ""
+
+#: inc/template-tags.php:1680
+msgid "请设置密码"
+msgstr ""
+
+#: inc/template-tags.php:1685
+msgid "基本资料"
+msgstr ""
+
+#: inc/template-tags.php:1686
+msgid "账号绑定"
+msgstr ""
+
+#: inc/template-tags.php:1687
+msgid "密码设置"
+msgstr ""
+
+#: pages/page-login.php:38
+msgid "您正在重新设置账号密码"
+msgstr ""
+
+#: pages/page-login.php:44
+msgid "新密码 *"
+msgstr ""
+
+#: pages/page-login.php:45 template-parts/global/login-form.php:74
+msgid "密码长度最低6位"
+msgstr ""
+
+#: pages/page-login.php:50
+msgid "确认新密码 *"
+msgstr ""
+
+#: pages/page-login.php:57
+msgid "立即设置新密码"
+msgstr ""
+
+#: pages/page-login.php:65 template-parts/global/login-form.php:104
+msgid "使用邮箱找回密码，重置密码链接会发送到您邮箱"
+msgstr ""
+
+#: pages/page-login.php:70 template-parts/global/login-form.php:109
+msgid "邮箱账号 *"
+msgstr ""
+
+#: pages/page-login.php:71 template-parts/global/login-form.php:110
+msgid "请输入绑定的邮箱"
+msgstr ""
+
+#: pages/page-login.php:76 template-parts/global/login-form.php:115
+msgid "立即找回密码"
+msgstr ""
+
+#: pages/page-login.php:99
+msgid "请输入用户名或密码"
+msgstr ""
+
+#: pages/page-user.php:29
+msgid "您的账号检测异常"
+msgstr ""
+
+#: pages/user/aff.php:35
+msgid "推广奖励"
+msgstr ""
+
+#: pages/user/aff.php:94
+msgid "提现RMB"
+msgstr ""
+
+#: pages/user/aff.php:97
+msgid "提现到余额"
+msgstr ""
+
+#: pages/user/aff.php:135 pages/user/tou.php:132
+msgid "提交中..."
+msgstr ""
+
+#: pages/user/bind.php:11
+msgid "账号绑定提示！"
+msgstr ""
+
+#: pages/user/bind.php:11
+msgid "为了您的账号安全，请在下方绑定您的邮箱账号"
+msgstr ""
+
+#: pages/user/bind.php:21
+msgid "账号邮箱绑定"
+msgstr ""
+
+#: pages/user/bind.php:27
+msgid "当前绑定邮箱"
+msgstr ""
+
+#: pages/user/bind.php:34 pages/user/password.php:16
+msgid "安全验证"
+msgstr ""
+
+#: pages/user/bind.php:44 pages/user/bind.php:60 pages/user/bind.php:67
+#: pages/user/bind.php:72
+msgid "绑定新邮箱"
+msgstr ""
+
+#: pages/user/bind.php:49 template-parts/global/login-form.php:65
+msgid "发送验证码"
+msgstr ""
+
+#: pages/user/bind.php:55
+msgid "邮箱验证码"
+msgstr ""
+
+#: pages/user/bind.php:88
+msgid "第三方登录绑定"
+msgstr ""
+
+#: pages/user/bind.php:92
+msgid "绑定第三方登录您可以快速登录账号"
+msgstr ""
+
+#: pages/user/bind.php:165
+msgid "解绑中..."
+msgstr ""
+
+#: pages/user/coin.php:9 pages/user/menu.php:24
+msgid "当前余额"
+msgstr ""
+
+#: pages/user/coin.php:32
+msgid "余额充值中心"
+msgstr ""
+
+#: pages/user/down.php:57 pages/user/order.php:31
+msgid "暂无记录"
+msgstr ""
+
+#: pages/user/down.php:69
+#, php-format
+msgid "累计下载 %s 次"
+msgstr ""
+
+#: pages/user/header.php:25 pages/user/menu.php:75
+#: template-parts/global/header-menu.php:47
+msgid "退出登录"
+msgstr ""
+
+#: pages/user/index.php:11
+msgid "个人基本信息"
+msgstr ""
+
+#: pages/user/index.php:25
+msgid "请上传80x80尺寸的JPG/PNG头像，最大可上传80KB"
+msgstr ""
+
+#: pages/user/index.php:35
+msgid "账号ID"
+msgstr ""
+
+#: pages/user/index.php:41
+msgid "昵称"
+msgstr ""
+
+#: pages/user/index.php:53
+msgid "电话"
+msgstr ""
+
+#: pages/user/index.php:59
+msgid "介绍"
+msgstr ""
+
+#: pages/user/index.php:118
+msgid "保存中..."
+msgstr ""
+
+#: pages/user/menu.php:17 template-parts/global/header-menu.php:70
+msgid "钱包"
+msgstr ""
+
+#: pages/user/menu.php:36
+msgid "今日已签到"
+msgstr ""
+
+#: pages/user/menu.php:39
+msgid "每日签到"
+msgstr ""
+
+#: pages/user/menu.php:41
+#, php-format
+msgid "每日签到奖励: %s"
+msgstr ""
+
+#: pages/user/menu.php:53
+msgid "会员中心"
+msgstr ""
+
+#: pages/user/menu.php:62
+msgid "账号信息"
+msgstr ""
+
+#: pages/user/order.php:10
+msgid "订单记录"
+msgstr ""
+
+#: pages/user/password.php:9
+msgid "账号密码管理"
+msgstr ""
+
+#: pages/user/password.php:26
+msgid "旧密码"
+msgstr ""
+
+#: pages/user/password.php:36
+msgid "新密码"
+msgstr ""
+
+#: pages/user/password.php:44
+msgid "确认新密码"
+msgstr ""
+
+#: pages/user/password.php:49
+msgid "确认修改密码"
+msgstr ""
+
+#: pages/user/vip.php:18
+msgid "开通VIP会员，尊享VIP优惠特权"
+msgstr ""
+
+#: pages/user/vip.php:64
+msgid "立即开通"
+msgstr ""
+
+#: searchform.php:12 template-parts/global/widget-question.php:12
+msgid "输入关键词 回车..."
+msgstr ""
+
+#: template-parts/content/entry-share.php:23
+msgid "支付宝扫一扫"
+msgstr ""
+
+#: template-parts/content/entry-share.php:23
+msgid "微信扫一扫"
+msgstr ""
+
+#: template-parts/content/entry-share.php:24
+msgid "打赏"
+msgstr ""
+
+#: template-parts/content/entry-share.php:30
+msgid "取消收藏"
+msgstr ""
+
+#: template-parts/content/entry-share.php:32
+msgid "收藏"
+msgstr ""
+
+#: template-parts/content/entry-share.php:38
+msgid "文章封面图"
+msgstr ""
+
+#: template-parts/content/entry-share.php:38
+msgid "海报"
+msgstr ""
+
+#: template-parts/content/entry-share.php:50
+msgid "点击复制链接"
+msgstr ""
+
+#: template-parts/content/hero-shop.php:44
+msgid "点击查看"
+msgstr ""
+
+#: template-parts/content/hero-video.php:44
+msgid "暂无权限播放"
+msgstr ""
+
+#: template-parts/content/hero-video.php:62
+msgid "登录后播放"
+msgstr ""
+
+#: template-parts/content/hero-video.php:75
+msgid "视频选集"
+msgstr ""
+
+#: template-parts/content/single-question.php:44
+msgid " 提问"
+msgstr ""
+
+#: template-parts/content/single-shop.php:20
+msgid "详情介绍"
+msgstr ""
+
+#: template-parts/content/single-shop.php:25
+msgid "评论建议"
+msgstr ""
+
+#: template-parts/content/single-shop.php:31
+msgid "常见问题"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:82
+msgid "相关标签"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:97
+#: template-parts/global/archive-filter.php:105
+#: template-parts/global/archive-filter.php:264
+msgid "价格"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:99
+#: template-parts/global/archive-filter.php:258
+msgid "付费"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:101
+#: template-parts/global/archive-filter.php:260
+msgid "折扣"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:143
+msgid "发布日期"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:144
+msgid "更新日期"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:145
+msgid "评论数量"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:146
+msgid "随机展示"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:147
+msgid "热度排行"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:150
+msgid "排序"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:174
+msgid "分类"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:212
+msgid "标签"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:281
+msgid "热度"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:283
+msgid "评论"
+msgstr ""
+
+#: template-parts/global/archive-filter.php:284
+msgid "随机"
+msgstr ""
+
+#: template-parts/global/footer-menu.php:12
+msgid "顶部"
+msgstr ""
+
+#: template-parts/global/footer-widget.php:27
+msgid "友情链接："
+msgstr ""
+
+#: template-parts/global/header-menu.php:49
+msgid "后台管理"
+msgstr ""
+
+#: template-parts/global/header-menu.php:71
+msgid "当前余额："
+msgstr ""
+
+#: template-parts/global/header-menu.php:72
+msgid "累计消费："
+msgstr ""
+
+#: template-parts/global/header-menu.php:80
+msgid "本站"
+msgstr ""
+
+#: template-parts/global/header-menu.php:80
+msgid "开通"
+msgstr ""
+
+#: template-parts/global/header-menu.php:81
+#, php-format
+msgid "尊享%s优惠特权"
+msgstr ""
+
+#: template-parts/global/header-menu.php:84
+#, php-format
+msgid "本站%s"
+msgstr ""
+
+#: template-parts/global/header-menu.php:84
+msgid "升级"
+msgstr ""
+
+#: template-parts/global/header-menu.php:85
+msgid "限时开放，尊享永久"
+msgstr ""
+
+#: template-parts/global/header-menu.php:109
+msgid "登录"
+msgstr ""
+
+#: template-parts/global/login-form.php:19
+msgid "登录您的账户"
+msgstr ""
+
+#: template-parts/global/login-form.php:25
+msgid "账号 *"
+msgstr ""
+
+#: template-parts/global/login-form.php:31
+#: template-parts/global/login-form.php:73
+msgid "密码 *"
+msgstr ""
+
+#: template-parts/global/login-form.php:31
+msgid "忘记密码？"
+msgstr ""
+
+#: template-parts/global/login-form.php:36
+#: template-parts/global/login-form.php:96
+#: template-parts/global/login-form.php:118
+msgid "立即登录"
+msgstr ""
+
+#: template-parts/global/login-form.php:40
+msgid "还没有账号，现在注册?"
+msgstr ""
+
+#: template-parts/global/login-form.php:40
+msgid "注册新用户"
+msgstr ""
+
+#: template-parts/global/login-form.php:48
+msgid "注册新账户"
+msgstr ""
+
+#: template-parts/global/login-form.php:53
+msgid "邮箱 *"
+msgstr ""
+
+#: template-parts/global/login-form.php:63
+msgid "邮箱验证码 *"
+msgstr ""
+
+#: template-parts/global/login-form.php:63
+msgid "请输入邮箱验证码"
+msgstr ""
+
+#: template-parts/global/login-form.php:79
+msgid "确认密码 *"
+msgstr ""
+
+#: template-parts/global/login-form.php:85
+msgid "注册登录即表示同意 "
+msgstr ""
+
+#: template-parts/global/login-form.php:85
+msgid "用户协议"
+msgstr ""
+
+#: template-parts/global/login-form.php:85
+msgid "隐私政策"
+msgstr ""
+
+#: template-parts/global/login-form.php:90
+msgid "立即注册"
+msgstr ""
+
+#: template-parts/global/login-form.php:96
+msgid "已有账号 ?"
+msgstr ""
+
+#: template-parts/global/login-form.php:118
+msgid "想起密码？"
+msgstr ""
+
+#: template-parts/global/omnisearch.php:22
+msgid "输入关键词 回车搜索..."
+msgstr ""
+
+#: template-parts/global/related-posts.php:31
+msgid "相关文章"
+msgstr ""
+
+#: template-parts/global/term-bar.php:35
+#, php-format
+msgid ""
+"“%s”搜索到<span class=\"badge badge-primary-lighten mx-1\">%s</span>个结果"
+msgstr ""
+
+#: template-parts/global/widget-question.php:17
+msgid "随机问题"
+msgstr ""
+
+#: template-parts/global/widget-question.php:42
+msgid "回答排行"
+msgstr ""
+
+#: template-parts/loop/item-list-question.php:58
+msgid "写回答"
+msgstr ""
+
+#: template-parts/loop/item-none.php:6
+msgid "抱歉，暂无符合条件的内容"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "RiPro-V2"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://ritheme.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"正式版，RiPro是一个优秀的主题，首页拖拽布局，高级筛选，自带会员生态系统，超全"
+"支付接口，你喜欢的样子我都有！RiPro主题，更强大的全资源/素材类主题，无需插"
+"件，集成强大的支付，后台管理，用户体验舒服。支持卡密，充值，积分，会员，高级"
+"筛选，推广佣金，作者佣金，前台创建文章，统计，自定义币种，自定义会员标识，全"
+"站功能实现AJAX，图片全站真正懒加载，支持SEO，注册邮件验证码，等等等等！"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ritheme"
+msgstr ""

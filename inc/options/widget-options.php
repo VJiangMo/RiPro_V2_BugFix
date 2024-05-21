@@ -211,7 +211,7 @@ if (!function_exists('rizhuti_v2_module_dynamic')) {
             $info_arr = [
                 array('title' => esc_html__('今日发布','ripro-v2'),'value' => ripro_v2_get_today_posts_count() ),
                 array('title' => esc_html__('本周','ripro-v2'),'value' => ripro_v2_get_week_post_count() ),
-                array('title' => esc_html__('总数','ripro-v2'),'value' => wp_count_posts()->publish ),
+                //array('title' => esc_html__('总数','ripro-v2'),'value' => wp_count_posts()->publish ),
             ];
             echo '<span class="float-right d-none d-lg-block">';
             foreach ($info_arr as $value) {
